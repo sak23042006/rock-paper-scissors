@@ -145,5 +145,5 @@ function win() {
 }
 
 playAgain.onclick = () =>{
-    location.href = "start.html"
+    location.href = "index.html"
 }
