@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="score flex">
+        <div>
+            <span id="player-score">0</span>
+        </div>
+        <p>-</p>
+        <div>
+            <span id="bot-score">0</span>
+        </div>
+    </div>
+    <div class="game-content flex">
+        <div class="player-side flex">
+            <div class="player-name">
+                <h1>You</h1>
+            </div>
+            <div class="hand-images">
+                <img class="player-img" >
+            </div>
+            <div class="options flex">
+                <img id="rock-btn"  src="assets/rock-logo.png" alt="rock">
+                <img id="paper-btn" src="assets/paper-logo.png" alt="paper">
+                <img id="scissor-btn" src="assets/scissors-logo.png" alt="scissor">
+            </div>
+        </div>
+        <div class="vs">
+            <img src="assets/vs.png" alt="">
+        </div>
+        <div class="bot-side">
+            <div class="bot-name">
+                <h1>comp</h1>
+            </div>
+            <div class="hand-images">
+                <img class="bot-img">
+            </div>
+        </div>
+    </div>
+    <div class="footer none">
+        <div>
+            <h1 class="msg"></h1>
+        </div>
+        <button class="again">Play Again</button>
+        <br>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
